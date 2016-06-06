@@ -10,6 +10,23 @@
     "table": "calificacion"
   },
   "properties": {
+    "idUsuario": {
+      "type": "Number",
+      "id": true,
+      "required": true,
+      "length": null,
+      "precision": 64,
+      "scale": 0,
+      "postgresql": {
+        "columnName": "id_usuario",
+        "dataType": "bigint",
+        "dataLength": null,
+        "dataPrecision": 64,
+        "dataScale": 0,
+        "nullable": "NO"
+      },
+      "_selectable": false
+    },
     "valor": {
       "type": "Number",
       "required": false,
@@ -18,23 +35,6 @@
       "scale": 0,
       "postgresql": {
         "columnName": "valor",
-        "dataType": "integer",
-        "dataLength": null,
-        "dataPrecision": 32,
-        "dataScale": 0,
-        "nullable": "YES"
-      },
-      "_selectable": true
-    },
-    "idUsuario": {
-      "type": "Number",
-      "id": true,
-      "required": true,
-      "length": null,
-      "precision": 32,
-      "scale": 0,
-      "postgresql": {
-        "columnName": "id_usuario",
         "dataType": "integer",
         "dataLength": null,
         "dataPrecision": 32,
@@ -56,9 +56,9 @@
         "dataLength": null,
         "dataPrecision": 32,
         "dataScale": 0,
-        "nullable": "YES"
+        "nullable": "NO"
       },
-      "_selectable": true
+      "_selectable": false
     }
   },
   "validations": [],

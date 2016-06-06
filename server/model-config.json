@@ -13,13 +13,11 @@
       "./mixins"
     ]
   },
-  "Calificacion": {
-    "dataSource": "dbMovieMapps",
-    "public": true,
-    "$promise": {},
-    "$resolved": true
-  },
   "Usuario": {
+    "dataSource": "dbMovieMapps",
+    "public": true
+  },
+  "Calificacion": {
     "dataSource": "dbMovieMapps",
     "public": true
   }
