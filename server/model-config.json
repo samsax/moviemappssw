@@ -15,7 +15,9 @@
   },
   "Calificacion": {
     "dataSource": "dbMovieMapps",
-    "public": true
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   },
   "Usuario": {
     "dataSource": "dbMovieMapps",

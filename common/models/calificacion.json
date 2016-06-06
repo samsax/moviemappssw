@@ -27,16 +27,16 @@
       },
       "_selectable": true
     },
-    "idMovie": {
+    "idUsuario": {
       "type": "Number",
       "id": true,
-      "required": false,
+      "required": true,
       "length": null,
       "precision": 32,
       "scale": 0,
       "postgresql": {
-        "columnName": "id_movie",
-        "dataType": "integer",
+        "columnName": "id_usuario",
+        "dataType": "bigint",
         "dataLength": null,
         "dataPrecision": 32,
         "dataScale": 0,
@@ -44,16 +44,16 @@
       },
       "_selectable": true
     },
-    "idUsuario": {
+    "idMovie": {
       "type": "Number",
       "id": true,
-      "required": false,
+      "required": true,
       "length": null,
       "precision": 32,
       "scale": 0,
       "postgresql": {
-        "columnName": "id_usuario",
-        "dataType": "bigint",
+        "columnName": "id_movie",
+        "dataType": "integer",
         "dataLength": null,
         "dataPrecision": 32,
         "dataScale": 0,
