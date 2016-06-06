@@ -19,7 +19,7 @@
       "scale": 0,
       "postgresql": {
         "columnName": "id",
-        "dataType": "integer",
+        "dataType": "bigint",
         "dataLength": null,
         "dataPrecision": 32,
         "dataScale": 0,
